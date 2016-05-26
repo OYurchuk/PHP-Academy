@@ -1,0 +1,58 @@
+
+html{
+
+    height: 100%;
+    width: 100%;
+}
+
+body{
+
+    height:100%;
+    width: 100%;
+}
+.bgPhoto {
+
+    background: url(gd202.jpg);
+
+    width: 1292px;
+    height: 740px;
+
+
+}
+
+.rectangle {
+    background: lightgoldenrodyellow;
+    left: 250px ;
+    top: 100px;
+    width: 800px;
+    height: 500px;
+    position:  relative;
+
+
+}
+
+table {
+    width: 500px; /* Ширина таблицы */
+    height:150px;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    margin: auto;
+}
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+th {
+    background: green; /* Цвет фона */
+}
+
+form {
+
+    width:400px;
+    height:50px;
+
+
+}
+#input-container {
+    top: 300px;
+    margin: 100px auto;
+}

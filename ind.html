@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Home Work5</title>
+    <link rel="stylesheet" href="sorce/Photo.css">
+    <script src="sorce/Phone.js"> </script>
+    <!-- <script src="sorce/Get.js"></script>  -->
+
+
+</head>
+<body>
+
+
+<div class="bgPhoto">
+    <div class="rectangle">
+
+
+        <!--Форма для Секундомера-->
+        <form name=TestForm>
+                <input type=button value="Сброс" onclick="clearСlock()">
+                <input name=stopwatch size=10 value="">
+                <input type=button value="Старт/Стоп" onclick="pause()">
+                <input type="button" value="Сохранить" onclick="result()">
+
+
+                </form>
+
+        <p> <div id="saveResult"></div> </p>
+
+        <table>
+            <tr>
+        <th>Имя</th>
+        <th>Пол</th>
+        <th>Возраст</th>
+        <th>Адрес</th>
+           </tr>
+            <tr>
+                <td>Оля</td>
+                <td>женский</td>
+                <td>28 лет</td>
+                <td> г. Киев</td>
+            </tr>
+            <tr>
+                <td> Ирина</td>
+                <td>женский</td>
+                <td>46 лет</td>
+                <td>г. Харьков</td>
+            </tr>
+
+            <tr>
+                <td>Леонид</td>
+                <td>мужской</td>
+                <td>45 лет</td>
+                <td>г. Львов</td>
+            </tr>
+    </table>
+
+        <div>Name</div><input type="text" id="name" required placeholder="Имя" >
+        <div>Sex</div><input type="text" id="sex" required placeholder=" Пол">
+        <div>Age</div><input type="text" id="age" required placeholder="Возраст">
+        <div>Plase</div><input type="text" id="plase" required placeholder="Адрес">
+
+       <!-- <div class="FoDiv" onclick="REQ (3000)">clik</div> -->
+        <input type="button" value="Отправить" onclick="REQ()"/>
+
+
+    </div>
+
+
+</div>
+</body>
+<html/>
